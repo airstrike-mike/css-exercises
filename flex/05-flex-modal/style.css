@@ -20,6 +20,15 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  /* gap: 10px; */
+}
+
+.allfather {
+  display: flex;
+  gap: 10px;
+  /* border: 1px solid; */
 }
 
 .icon {
@@ -33,6 +42,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  /* border: 1px solid; */
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  /* border: 1px solid; */
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.title-close {
+  display: flex;
+  /* border: 1px solid; */
+  flex: 1;
+  justify-content: space-between;
+  /* padding: 5px; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+  /* padding: 5px; */
+}
+
+.text {
+  /* border: 1px solid; */
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+  /* border: 1px solid; */
 }
 
 .close-button {
@@ -46,7 +92,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #eee;
+  border: 0px;
   padding: 0;
 }
 
